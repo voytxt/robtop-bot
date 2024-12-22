@@ -1,0 +1,13 @@
+{
+  "tasks": {
+    "run": "deno run -A --unstable-cron src/main.ts",
+    "update-db": "deno run -A src/update-db.ts"
+  },
+  "imports": {
+    "appwrite": "https://deno.land/x/appwrite@12.1.0/mod.ts",
+    "atproto": "npm:@atproto/api@^0.13.23",
+    "buffer": "node:buffer",
+    "dotenv": "jsr:@std/dotenv/load",
+    "wretch": "npm:wretch@^2.11.0"
+  }
+}

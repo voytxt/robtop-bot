@@ -1,5 +1,1 @@
-node_modules
-src/stuff.js
-rawDb/
-db/
-todo.txt
+.env

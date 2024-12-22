@@ -1,7 +1,3 @@
-# RobTop Twitter Bot
+# RobTop Quotes Bot [@robtop.voytxt.com](https://bsky.app/profile/robtop.voytxt.com)
 
-| Platform     | Last database update |
-| :----------- | :------------------: |
-| Discord      |      7 Feb 2022      |
-| Twitter      |        never         |
-| GD (in-game) |        never         |
+Random RobTop GD comments every hour. Uses Appwrite and Deno Deploy.

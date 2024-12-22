@@ -1,0 +1,142 @@
+{
+  "version": "4",
+  "specifiers": {
+    "jsr:@std/dotenv@*": "0.225.3",
+    "npm:@atproto/api@~0.13.23": "0.13.23",
+    "npm:wretch@^2.11.0": "2.11.0"
+  },
+  "jsr": {
+    "@std/dotenv@0.225.3": {
+      "integrity": "a95e5b812c27b0854c52acbae215856d9cce9d4bbf774d938c51d212711e8d4a"
+    }
+  },
+  "npm": {
+    "@atproto/api@0.13.23": {
+      "integrity": "sha512-V1Z5kgfSsqlFaC14sjnZL1Psv/9Lq/YKW1w7TIBq948Rtq8l+c6BpGrOH2Ssdcphpqi4OSeSYRsmJJlD6GGJ5w==",
+      "dependencies": [
+        "@atproto/common-web",
+        "@atproto/lexicon",
+        "@atproto/syntax",
+        "@atproto/xrpc",
+        "await-lock",
+        "multiformats",
+        "tlds",
+        "zod"
+      ]
+    },
+    "@atproto/common-web@0.3.1": {
+      "integrity": "sha512-N7wiTnus5vAr+lT//0y8m/FaHHLJ9LpGuEwkwDAeV3LCiPif4m/FS8x/QOYrx1PdZQwKso95RAPzCGWQBH5j6Q==",
+      "dependencies": [
+        "graphemer",
+        "multiformats",
+        "uint8arrays",
+        "zod"
+      ]
+    },
+    "@atproto/lexicon@0.4.4": {
+      "integrity": "sha512-QFEmr3rpj/RoAmfX9ALU/asBG/rsVtQZnw+9nOB1/AuIwoxXd+ZyndR6lVUc2+DL4GEjl6W2yvBru5xbQIZWyA==",
+      "dependencies": [
+        "@atproto/common-web",
+        "@atproto/syntax",
+        "iso-datestring-validator",
+        "multiformats",
+        "zod"
+      ]
+    },
+    "@atproto/syntax@0.3.1": {
+      "integrity": "sha512-fzW0Mg1QUOVCWUD3RgEsDt6d1OZ6DdFmbKcDdbzUfh0t4rhtRAC05KbZYmxuMPWDAiJ4BbbQ5dkAc/mNypMXkw=="
+    },
+    "@atproto/xrpc@0.6.5": {
+      "integrity": "sha512-t6u8iPEVbWge5RhzKZDahSzNDYIAxUtop6Q/X/apAZY1rgreVU0/1sSvvRoRFH19d3UIKjYdLuwFqMi9w8nY3Q==",
+      "dependencies": [
+        "@atproto/lexicon",
+        "zod"
+      ]
+    },
+    "await-lock@2.2.2": {
+      "integrity": "sha512-aDczADvlvTGajTDjcjpJMqRkOF6Qdz3YbPZm/PyW6tKPkx2hlYBzxMhEywM/tU72HrVZjgl5VCdRuMlA7pZ8Gw=="
+    },
+    "graphemer@1.4.0": {
+      "integrity": "sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag=="
+    },
+    "iso-datestring-validator@2.2.2": {
+      "integrity": "sha512-yLEMkBbLZTlVQqOnQ4FiMujR6T4DEcCb1xizmvXS+OxuhwcbtynoosRzdMA69zZCShCNAbi+gJ71FxZBBXx1SA=="
+    },
+    "multiformats@9.9.0": {
+      "integrity": "sha512-HoMUjhH9T8DDBNT+6xzkrd9ga/XiBI4xLr58LJACwK6G3HTOPeMz4nB4KJs33L2BelrIJa7P0VuNaVF3hMYfjg=="
+    },
+    "tlds@1.255.0": {
+      "integrity": "sha512-tcwMRIioTcF/FcxLev8MJWxCp+GUALRhFEqbDoZrnowmKSGqPrl5pqS+Sut2m8BgJ6S4FExCSSpGffZ0Tks6Aw=="
+    },
+    "uint8arrays@3.0.0": {
+      "integrity": "sha512-HRCx0q6O9Bfbp+HHSfQQKD7wU70+lydKVt4EghkdOvlK/NlrF90z+eXV34mUd48rNvVJXwkrMSPpCATkct8fJA==",
+      "dependencies": [
+        "multiformats"
+      ]
+    },
+    "wretch@2.11.0": {
+      "integrity": "sha512-zbFW4PnPSS5RFQabHRkCAcMQjmFGrEQLcJwYe4YGXL9KWXneu03Dtaz2JUeqEkOwNDMjdfHEHPL+AIZJwE+y1g=="
+    },
+    "zod@3.24.1": {
+      "integrity": "sha512-muH7gBL9sI1nciMZV67X5fTKKBLtwpZ5VBp1vsOQzj1MhrBZ4wlVCm3gedKZWLp0Oyel8sIGfeiz54Su+OVT+A=="
+    }
+  },
+  "remote": {
+    "https://deno.land/std@0.122.0/_util/assert.ts": "2f868145a042a11d5ad0a3c748dcf580add8a0dbc0e876eaa0026303a5488f58",
+    "https://deno.land/std@0.122.0/_util/os.ts": "dfb186cc4e968c770ab6cc3288bd65f4871be03b93beecae57d657232ecffcac",
+    "https://deno.land/std@0.122.0/path/_constants.ts": "1247fee4a79b70c89f23499691ef169b41b6ccf01887a0abd131009c5581b853",
+    "https://deno.land/std@0.122.0/path/_interface.ts": "1fa73b02aaa24867e481a48492b44f2598cd9dfa513c7b34001437007d3642e4",
+    "https://deno.land/std@0.122.0/path/_util.ts": "2e06a3b9e79beaf62687196bd4b60a4c391d862cfa007a20fc3a39f778ba073b",
+    "https://deno.land/std@0.122.0/path/common.ts": "f41a38a0719a1e85aa11c6ba3bea5e37c15dd009d705bd8873f94c833568cbc4",
+    "https://deno.land/std@0.122.0/path/glob.ts": "7bf2349e818e332a830f3d8874c3f45dd7580b6c742ed50dbf6282d84ab18405",
+    "https://deno.land/std@0.122.0/path/mod.ts": "4465dc494f271b02569edbb4a18d727063b5dbd6ed84283ff906260970a15d12",
+    "https://deno.land/std@0.122.0/path/posix.ts": "34349174b9cd121625a2810837a82dd8b986bbaaad5ade690d1de75bbb4555b2",
+    "https://deno.land/std@0.122.0/path/separator.ts": "8fdcf289b1b76fd726a508f57d3370ca029ae6976fcde5044007f062e643ff1c",
+    "https://deno.land/std@0.122.0/path/win32.ts": "11549e8c6df8307a8efcfa47ad7b2a75da743eac7d4c89c9723a944661c8bd2e",
+    "https://deno.land/x/appwrite@12.1.0/mod.ts": "9352d1a6bb370d82f6c73e53a0ee055bdd3686632c9f2d2c1a66e5c2cf0080fd",
+    "https://deno.land/x/appwrite@12.1.0/src/client.ts": "f861fa54769c7d45a454bd46671b7df72dbad46a299247861bfe12a9f269968e",
+    "https://deno.land/x/appwrite@12.1.0/src/enums/authentication-factor.ts": "29e807119efb8b21ca8601d1dc271a3c9150e31554351d37e527c44cfd2dec7d",
+    "https://deno.land/x/appwrite@12.1.0/src/enums/authenticator-type.ts": "7aeb0cde9a751325a9d832e9fe7121e2c1047f3491cfb7dc5d98dcb570d5d20f",
+    "https://deno.land/x/appwrite@12.1.0/src/enums/browser.ts": "8203be677b378978fe68aed4bf017c2fa026909142136871d1abcf06706b3c3a",
+    "https://deno.land/x/appwrite@12.1.0/src/enums/compression.ts": "1d47a07ead40d9eba8e4147c4b081255644d6682ac7e7baf6cf38c4b7357488b",
+    "https://deno.land/x/appwrite@12.1.0/src/enums/credit-card.ts": "ef5b5fa1797d930859e81d890dca89036e4a70dceb8b2fdd194ee847d5848678",
+    "https://deno.land/x/appwrite@12.1.0/src/enums/execution-method.ts": "19b2ada306921d8fcb63b22fc62cb8e9ab0688a85bcf592e4ffa30aeb4c13147",
+    "https://deno.land/x/appwrite@12.1.0/src/enums/flag.ts": "caca8522be16bdb623c4f82c4e2c7aa27f8f1b16ee1b02a29b5ba455a0a319af",
+    "https://deno.land/x/appwrite@12.1.0/src/enums/image-format.ts": "4b619abe69b9c00f103de42034574af8710a147546c2c558d55024fa723e077b",
+    "https://deno.land/x/appwrite@12.1.0/src/enums/image-gravity.ts": "59321342115ca14998959c816ece2653199758d90352ef2af178df6a8b4ebbde",
+    "https://deno.land/x/appwrite@12.1.0/src/enums/index-type.ts": "ce3cc6e834a22c4237bfe22fa05acc6d0f1fb3c326581104fd15ed07c13126bc",
+    "https://deno.land/x/appwrite@12.1.0/src/enums/messaging-provider-type.ts": "c9b2e535c6f9d042f6e1ed22deeefc064487a4898b43451d79100913dd04ac38",
+    "https://deno.land/x/appwrite@12.1.0/src/enums/name.ts": "deed8a7ea24dc1f4a4ea188875ab7cf944d33c1db8a761ca74eddd6fff08676f",
+    "https://deno.land/x/appwrite@12.1.0/src/enums/o-auth-provider.ts": "7cda0e215248b640c5e49169eb16be6e4057abfa2876bf5969f4b7805cf9e088",
+    "https://deno.land/x/appwrite@12.1.0/src/enums/password-hash.ts": "5d15e8adcc6e618e87d6b3a99d9089a8c2b4861f86ad0693b6ef3cc63dacff48",
+    "https://deno.land/x/appwrite@12.1.0/src/enums/relation-mutate.ts": "d7ce3e2945278544ba21c2efdab65678c578db10cd764ca3c874d840d4065ddd",
+    "https://deno.land/x/appwrite@12.1.0/src/enums/relationship-type.ts": "9b985dfef86b595759bbccfc5520142d2671e2b6f4b6d498d94ff36c52a1122f",
+    "https://deno.land/x/appwrite@12.1.0/src/enums/runtime.ts": "b3e0ac922651980ad67c16701460ec73831fdbbb488ac9d82bc4d0224c262732",
+    "https://deno.land/x/appwrite@12.1.0/src/enums/smtp-encryption.ts": "54730a29af7a7e43fe9b1d9d85c3f7283599eaa26ed4ed6470b629d69d2b2825",
+    "https://deno.land/x/appwrite@12.1.0/src/exception.ts": "ff67ae43c8a4e4bc449294ba3a2cb4c1c593cf8ebbbca8917467c906486495b8",
+    "https://deno.land/x/appwrite@12.1.0/src/id.ts": "e11d66ce1456f74146cff9cd18b35c4ee04a00336b6a60a5e687f8779fab307a",
+    "https://deno.land/x/appwrite@12.1.0/src/inputFile.ts": "8f9e9bac6130b854a6c28c1b1bb00d31a512e175459f595db350506fa2740bfe",
+    "https://deno.land/x/appwrite@12.1.0/src/permission.ts": "3aeba3d58059ae762ebfd75bf82c7b8bf1e75a28f105f6cfd6d650d300c2308d",
+    "https://deno.land/x/appwrite@12.1.0/src/query.ts": "7671bd9aacb219f1c54b37bf03a56a54e993ba9c232c479e41f0b9e9c310a49e",
+    "https://deno.land/x/appwrite@12.1.0/src/role.ts": "72ad85e15bd681f701c7fb9df6221a65965455596b06622a4ad11d87dce44358",
+    "https://deno.land/x/appwrite@12.1.0/src/service.ts": "4a8227462b0e6af12956a0f9573c6360582a38cc3eb215bd480e50e398ff69d3",
+    "https://deno.land/x/appwrite@12.1.0/src/services/account.ts": "229f378c24b48e4c427f82c4cc3fc6e939dfa8cdb7257bd24cffcb5095927a04",
+    "https://deno.land/x/appwrite@12.1.0/src/services/avatars.ts": "82a01f389373f63abc75a542d392e4ce9eb3aa92046eaf0a685035e382bd8cbc",
+    "https://deno.land/x/appwrite@12.1.0/src/services/databases.ts": "4fd263da52b853ae0886ef32e4818f41f40d72e7cff7072e6b1d9b3104f9acd6",
+    "https://deno.land/x/appwrite@12.1.0/src/services/functions.ts": "c54d2c7349b56afe3b75b01bb557c90b4fc942486b98060fab6ef871aa19033c",
+    "https://deno.land/x/appwrite@12.1.0/src/services/graphql.ts": "c94133899996e59f987706e0258e6247de265bce45f0c2d30437a498ecdfabd8",
+    "https://deno.land/x/appwrite@12.1.0/src/services/health.ts": "3f0568606a29c6c825b6c3ad1e254d73c12de8cc7673b731375e89252558bda9",
+    "https://deno.land/x/appwrite@12.1.0/src/services/locale.ts": "916a602ae1d1b66901ba719081c1d751b2a1e2e741bd80302635b37c4aec4046",
+    "https://deno.land/x/appwrite@12.1.0/src/services/messaging.ts": "643209b31850eda7bc6da3932435764cb08040b77885b774c6ed65dfb37f7a27",
+    "https://deno.land/x/appwrite@12.1.0/src/services/storage.ts": "d327fc3a962ca03771502315345b11cf1fa7517f9b719b17c3a6ceca46999b0a",
+    "https://deno.land/x/appwrite@12.1.0/src/services/teams.ts": "760a4bd5d335e533b05741b1c4cb1f5fde66955e9a9828a5882419d99709834f",
+    "https://deno.land/x/appwrite@12.1.0/src/services/users.ts": "0cd8ba7ba0218bfea8438285f61c9b3a225110e8d548e061b4f5e681a712ee33"
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@std/dotenv@*",
+      "npm:@atproto/api@~0.13.23",
+      "npm:wretch@^2.11.0"
+    ]
+  }
+}
